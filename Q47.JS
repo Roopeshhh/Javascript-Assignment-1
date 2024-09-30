@@ -1,6 +1,6 @@
 // 47.Create a function that checks if a string is a palindrom
 
-function isPalindrome(str) {
+/* function isPalindrome(str) {
   // Convert the string to lowercase and remove non-alphanumeric characters
   const cleanedStr = str.toLowerCase().replace(/[^a-z0-9]/g, "");
 
@@ -10,4 +10,4 @@ function isPalindrome(str) {
 
 console.log(isPalindrome("madam")); // true
 console.log(isPalindrome("Hello")); // false
-console.log(isPalindrome("A man, a plan, a canal: Panama")); // true
+console.log(isPalindrome("A man, a plan, a canal: Panama")); // true */

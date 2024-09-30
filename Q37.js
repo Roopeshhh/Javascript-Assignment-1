@@ -9,13 +9,12 @@
 function convertCurrency(amount, currencyType) {
   let convertedAmount;
 
-  // Convert currency based on currencyType
   if (currencyType === "USD") {
-    convertedAmount = amount * 75; // USD to INR conversion
+    convertedAmount = amount * 75; // USD to INR
   } else if (currencyType === "EUR") {
-    convertedAmount = amount * 90; // EUR to INR conversion
+    convertedAmount = amount * 90; // EUR to INR
   } else if (currencyType === "GBP") {
-    convertedAmount = amount * 100; // GBP to INR conversion
+    convertedAmount = amount * 100; // GBP to INR
   } else {
     return "Invalid currency type";
   }

@@ -25,7 +25,7 @@ function suggestClothing(temperature) {
   return suggestion;
 }
 
-console.log(suggestClothing(-5)); //  "Wear a heavy coat and thermal wear."
-console.log(suggestClothing(10)); //  "Wear a jacket."
-console.log(suggestClothing(20)); //  "Wear a light sweater."
-console.log(suggestClothing(30)); //  "Wear shorts and a t-shirt."
+console.log(suggestClothing(-5)); //"Wear a heavy coat and thermal wear."
+console.log(suggestClothing(10)); //"Wear a jacket."
+console.log(suggestClothing(20)); //"Wear a light sweater."
+console.log(suggestClothing(30)); //"Wear shorts and a t-shirt."
